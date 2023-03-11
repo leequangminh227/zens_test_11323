@@ -27,6 +27,10 @@ $npm run start
 
 $npm run start:dev
 
+#API doc with Swagger 
+
+go to http://localhost:3000/api
+
 #unit test
 $ npm run test:watch
 
