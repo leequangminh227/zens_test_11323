@@ -30,7 +30,6 @@ let JokesController = class JokesController {
         return this.JokesService.getNew(idList);
     }
     reactJoke(id, reaction) {
-        console.log(reaction === 'true');
         return this.JokesService.reactJoke(id, reaction === 'true');
     }
 };

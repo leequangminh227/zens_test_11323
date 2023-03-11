@@ -64,7 +64,6 @@ let JokesService = class JokesService {
         return rs;
     }
     reactJoke(id, reaction) {
-        console.log(id, reaction);
         let idx = 0;
         let joke = null;
         this.jokeList.map((ele, index) => {
