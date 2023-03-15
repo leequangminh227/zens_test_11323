@@ -1,15 +1,9 @@
-.App {
+.app {
   text-align: center;
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.appContainer {
   background-color: white;
   height: 80px;
   display: flex;
@@ -42,12 +36,108 @@
   max-width: 80px;
 }
 
+.title {
+  background-color: #29b363;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleContent {
+  color: white;
+  padding: 40px;
+}
+
+.footerInfo {
+  padding: 40px;
+}
+
+.titleContent h1 {
+  font-weight: 500;
+}
+
+.jokeBlock,
+.footerBlock {
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jokeContent {
+  padding: 35px 45px;
+}
+
+.endJokeLine {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  max-width: 70%;
+}
+
+.footerLine {
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.footerInfo {
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerInfo .text {
+  margin-bottom: 20px;
+}
+
+.text.grey {
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.reactBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.reactButton {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.reactButton.blue button {
+  background-color: #1c7cdc;
+}
+
+.reactButton.green button {
+  background-color: #30b464;
+}
+
+.reactButton button {
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  min-width: 200px;
+  border: none;
+  box-shadow: 0 4px 2px -0px gray;
+}
+
+.reactButton.blue button:hover {
+  background-color: rgba(28, 124, 220, 0.9)
+}
+
+
+.reactButton.green button:hover {
+  background-color: rgba(48, 180, 100, 0.9)
+}
+
+#footerDetail {
+  font-size: 12px;
 }
